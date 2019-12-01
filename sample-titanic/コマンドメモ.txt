@@ -1,0 +1,27 @@
+
+
+★コマンド
+１.csv→.feature変換
+python scripts/convert_to_feather.py
+
+
+２．feature生成
+python features/create.py
+
+３．実行
+python run.py
+
+
+★環境
+
+Package              Version
+-------------------- -------------------
+features             0.5.11
+numpy                1.17.4
+pandas               0.25.3
+pathlib              1.0.1
+pip                  19.3.1
+pyarrow              0.15.1
+tensorflow           2.0.0
+tensorflow-estimator 2.0.1
+timer                0.1
